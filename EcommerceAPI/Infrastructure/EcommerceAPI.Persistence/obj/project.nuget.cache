@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "24pp48VPn8VPNAii0b7UeOcRYWrjPo8FRz/J9Hj4GjQoIdoMduOiXNkALczJqLuWSqp8zEkI7cJtJz9k4mwBDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oyunu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

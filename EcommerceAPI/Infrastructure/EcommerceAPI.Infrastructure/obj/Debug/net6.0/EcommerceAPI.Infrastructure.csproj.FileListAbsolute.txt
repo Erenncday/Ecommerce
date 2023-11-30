@@ -1,0 +1,17 @@
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Infrastructure.deps.json
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Infrastructure.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Infrastructure.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Domain.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Application.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\bin\Debug\net6.0\EcommerceAPI.Domain.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.csproj.CopyComplete
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\refint\EcommerceAPI.Infrastructure.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\ref\EcommerceAPI.Infrastructure.dll

@@ -1,0 +1,17 @@
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Persistence.deps.json
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Persistence.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Persistence.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Domain.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Application.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Domain.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.csproj.AssemblyReference.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.AssemblyInfoInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.AssemblyInfo.cs
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.csproj.CopyComplete
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\refint\EcommerceAPI.Persistence.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\ref\EcommerceAPI.Persistence.dll

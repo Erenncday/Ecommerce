@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj",
+        "projectName": "EcommerceAPI.Application",
+        "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\oyunu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oyunu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj",
+        "projectName": "EcommerceAPI.Domain",
+        "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\oyunu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oyunu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj",
+        "projectName": "EcommerceAPI.Infrastructure",
+        "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\oyunu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oyunu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj",
+        "projectName": "EcommerceAPI.Persistence",
+        "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj",
+        "packagesPath": "C:\\Users\\oyunu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oyunu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj",
+        "projectName": "EcommerceAPI.API",
+        "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj",
+        "packagesPath": "C:\\Users\\oyunu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oyunu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj"
+              },
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj"
+              },
+              "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj": {
+                "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

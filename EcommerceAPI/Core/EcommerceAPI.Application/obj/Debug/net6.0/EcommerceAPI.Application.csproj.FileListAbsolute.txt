@@ -1,0 +1,15 @@
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\bin\Debug\net6.0\EcommerceAPI.Application.deps.json
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\bin\Debug\net6.0\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\bin\Debug\net6.0\EcommerceAPI.Application.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\bin\Debug\net6.0\EcommerceAPI.Domain.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\bin\Debug\net6.0\EcommerceAPI.Domain.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.csproj.AssemblyReference.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.AssemblyInfoInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.AssemblyInfo.cs
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.csproj.CopyComplete
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\refint\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.pdb
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\ref\EcommerceAPI.Application.dll
