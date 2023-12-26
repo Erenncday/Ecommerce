@@ -15,3 +15,5 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\Ec
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\refint\EcommerceAPI.Persistence.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.pdb
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\ref\EcommerceAPI.Persistence.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\bin\Debug\net6.0\EcommerceAPI.Persistence.runtimeconfig.json
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Persistence\obj\Debug\net6.0\EcommerceAPI.Persistence.genruntimeconfig.cache
