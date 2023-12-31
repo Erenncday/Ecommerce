@@ -315,7 +315,8 @@
       },
       "EcommerceAPI.Application/1.0.0": {
         "dependencies": {
-          "EcommerceAPI.Domain": "1.0.0"
+          "EcommerceAPI.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.25"
         },
         "runtime": {
           "EcommerceAPI.Application.dll": {}

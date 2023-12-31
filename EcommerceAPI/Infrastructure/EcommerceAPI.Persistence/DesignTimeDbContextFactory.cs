@@ -16,6 +16,7 @@ namespace EcommerceAPI.Persistence
 		{
 			DbContextOptionsBuilder<EcommerceAPIDbContext> dbContextOptionsBuilder = new();
 			dbContextOptionsBuilder.UseNpgsql(Configurations.ConnectionString);
+
 			return new(dbContextOptionsBuilder.Options);
 		}
 	}
