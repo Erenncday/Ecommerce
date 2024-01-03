@@ -2,7 +2,6 @@
 using EcommerceAPI.Domain.Entities.Common;
 using EcommerceAPI.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Linq.Expressions;
 
 namespace EcommerceAPI.Persistence.Repositories

@@ -11,10 +11,20 @@ namespace EcommerceAPI.API.Controllers
 		readonly private IProductReadRepository _productReadRepository;
 		readonly private IProductWriteRepository _productWriteRepository;
 
-		public TestController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
+		readonly private IOrderWriteRepository _orderWriteRepository;
+		readonly private IOrderReadRepository _orderReadRepository;
+
+		readonly private ICustomerWriteRepository _customerWriteRepository;
+		readonly private ICustomerReadRepository _customerReadRepository;
+
+		public TestController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, IOrderWriteRepository orderWriteRepository, ICustomerWriteRepository customerWriteRepository, ICustomerReadRepository customerReadRepository, IOrderReadRepository orderReadRepository)
 		{
 			_productReadRepository = productReadRepository;
 			_productWriteRepository = productWriteRepository;
+			_orderWriteRepository = orderWriteRepository;
+			_customerWriteRepository = customerWriteRepository;
+			_customerReadRepository = customerReadRepository;
+			_orderReadRepository = orderReadRepository;
 		}
 
 		//[HttpGet]
@@ -30,23 +40,36 @@ namespace EcommerceAPI.API.Controllers
 		//	var count = await _productWriteRepository.SaveAsync();
 		//}
 
+		//[HttpGet]
+		//public async Task Get()
+		//{
+		//	//Product p = await _productReadRepository.GetByIdAsync("2dc23820-5a44-4d26-85a6-6e2ca8793e86");
+		//	//p.Name = "Telefon";
+		//	//await _productWriteRepository.SaveAsync();
+
+		//	//Product prod = await _productReadRepository.GetByIdAsync("2dc23820-5a44-4d26-85a6-6e2ca8793e86", false);
+		//	//prod.Name = "Eren";
+		//	//await _productWriteRepository.SaveAsync();
+
+
+		//	//Product pr = await _productReadRepository.GetByIdAsync("7158ba44-5152-4df1-9ab6-14909c9d9c9d");
+		//	//pr.Name = "Bilgisayar";
+		//	//await _productWriteRepository.SaveAsync();
+		//}
+
 		[HttpGet]
 		public async Task Get()
 		{
-			//Product p = await _productReadRepository.GetByIdAsync("2dc23820-5a44-4d26-85a6-6e2ca8793e86");
-			//p.Name = "Telefon";
-			//await _productWriteRepository.SaveAsync();
+			//var customerId = Guid.NewGuid();
+			//await _customerWriteRepository.AddAsync(new() { Name = "Eren", Id = customerId });
 
-			Product prod = await _productReadRepository.GetByIdAsync("2dc23820-5a44-4d26-85a6-6e2ca8793e86", false);
-			prod.Name = "Eren";
-			await _productWriteRepository.SaveAsync();
+			//await _orderWriteRepository.AddAsync(new() { Description = "Bla Bla Bla", Address = "İstanbul, Maltepe", CustomerId = customerId });
+			//await _orderWriteRepository.AddAsync(new() { Description = "Bla Bla Bla", Address = "Kayseri, Yahyalı", CustomerId = customerId });
+			//await _orderWriteRepository.SaveAsync();
 
-
-			//Product pr = await _productReadRepository.GetByIdAsync("7158ba44-5152-4df1-9ab6-14909c9d9c9d");
-			//pr.Name = "Bilgisayar";
-			//await _productWriteRepository.SaveAsync();
-
-
+			Order order = await _orderReadRepository.GetByIdAsync("fc53d446-0179-4bd3-a58e-09f6203708e5");
+			order.Address = "Adana";
+			await _orderWriteRepository.SaveAsync();
 		}
 
 		[HttpGet("{id}")]
