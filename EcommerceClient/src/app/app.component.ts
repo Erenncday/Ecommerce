@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'EcommerceClient';
 }
 
-$(document).ready(() =>
-{
-  alert("Hoşgeldiniz")
-})
+// $(document).ready(() =>
+// {
+//   alert("Hoşgeldiniz")
+// })
