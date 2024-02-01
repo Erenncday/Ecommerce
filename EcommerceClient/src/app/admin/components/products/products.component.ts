@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
-import { Product } from 'src/app/contracts/product';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
 
 @Component({
@@ -19,11 +18,11 @@ export class ProductsComponent extends BaseComponent implements OnInit
   ngOnInit(): void {
     this.showSpinner(SpinnerType.BallPulseSync);
     
-    this.httpClientService.get<Product[]>(
-      {
-        controller : "Test"
-      }
-    ).subscribe(data => console.log(data));
+    // this.httpClientService.get<Product[]>(
+    //   {
+    //     controller : "Test"
+    //   }
+    // ).subscribe(data => console.log(data));
 
     // this.httpClientService.post(
     //   {
@@ -62,11 +61,11 @@ export class ProductsComponent extends BaseComponent implements OnInit
     //   }
     // ).subscribe(data => console.log(data))
 
-    this.httpClientService.get(
-      {
-        fullEndPoint : "https://jsonplaceholder.typicode.com/posts"
-      }
-    ).subscribe(data => console.log(data))
+    // this.httpClientService.get(
+    //   {
+    //     fullEndPoint : "https://jsonplaceholder.typicode.com/posts"
+    //   }
+    // ).subscribe(data => console.log(data))
 
 
   }
