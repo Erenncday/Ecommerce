@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { Create_Product } from 'src/app/contracts/create_product';
@@ -39,7 +39,16 @@ export class CreateComponent extends BaseComponent implements OnInit {
           messageType : MessageType.Success,
           position : Position.TopRight
       });
-    });
+    }, errorMessage => 
+    {
+      this.alertify.message(errorMessage,
+        {
+          dismissOthers : true,
+          messageType : MessageType.Error,
+          position : Position.TopRight
+
+        });
+    } );
 
   }
 

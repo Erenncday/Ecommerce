@@ -8,6 +8,7 @@ import { HttpClientService } from 'src/app/services/common/http-client.service';
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.scss']
 })
+
 export class ProductsComponent extends BaseComponent implements OnInit 
 {
   constructor(spinner : NgxSpinnerService, private httpClientService : HttpClientService)
