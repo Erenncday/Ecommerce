@@ -9,6 +9,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
 
+declare var $ : any;
 
 @Component({
   selector: 'app-list',
@@ -23,7 +24,7 @@ export class ListComponent extends BaseComponent implements OnInit{
     super(spinner)
   }
 
-  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate'];
+  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate', 'edit', 'delete'];
 
   dataSource : MatTableDataSource<List_Product> = null;
 
@@ -44,6 +45,13 @@ export class ListComponent extends BaseComponent implements OnInit{
 
     this.paginator.length = allProducts.totalCount;
   }
+
+  // delete(id, event)
+  // {
+  //   alert(id)
+  //   const img : HTMLImageElement = event.srcElement;
+  //   $(img.parentElement.parentElement).fadeOut(2000);
+  // }
 
   async pageChanged()
   {
