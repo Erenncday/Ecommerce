@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "noXpJ29A0PkGjbRyIA2DquJ1c04kc2iRii1DVr7VMKM=",
+  "Hash": "jO/xEe3GyoveWh1CEWAlsvoLXTT4W/HgooZF8RMzrtQ=",
   "Source": "EcommerceAPI.API",
   "BasePath": "_content/EcommerceAPI.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EcommerceAPI.API\\wwwroot",
+      "Source": "EcommerceAPI.API",
+      "ContentRoot": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\",
+      "BasePath": "_content/EcommerceAPI.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

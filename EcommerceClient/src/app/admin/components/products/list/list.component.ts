@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, Output, ViewChild } from '@angular/core';
 import { ProductService } from 'src/app/services/common/models/product.service';
 import { List_Product } from 'src/app/contracts/list_product';
 
@@ -8,6 +8,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
+import { FileUploadOptions } from 'src/app/services/common/file-upload/file-upload.component';
 
 declare var $ : any;
 
@@ -27,6 +28,15 @@ export class ListComponent extends BaseComponent implements OnInit{
   displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate', 'edit', 'delete'];
 
   dataSource : MatTableDataSource<List_Product> = null;
+
+  @Output() fileUploadOptions : Partial<FileUploadOptions> = 
+  {
+    action : "upload",
+    controller : "Test",
+    explanation : "Resimleri sürükleyin veya seçin...",
+    isAdminPage : true,
+    accept : ".png, jpg, .jpeg, .pdf"
+  };
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
 

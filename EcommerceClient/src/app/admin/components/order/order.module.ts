@@ -13,7 +13,7 @@ import { Router, RouterModule } from '@angular/router';
     CommonModule,
     RouterModule.forChild([
       {path: "", component: OrderComponent}
-    ])
+    ]),
   ]
 })
 export class OrderModule { }

@@ -53,3 +53,4 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\Ecom
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\EcommerceAPI.API.staticwebassets.runtime.json
