@@ -49,7 +49,6 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\Ecom
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
-C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\obj\Debug\net6.0\EcommerceAPI.API.sourcelink.json
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

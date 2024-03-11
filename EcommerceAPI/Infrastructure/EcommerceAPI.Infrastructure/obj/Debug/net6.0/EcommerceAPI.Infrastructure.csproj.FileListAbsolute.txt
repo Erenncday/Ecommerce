@@ -15,4 +15,3 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\Ec
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\refint\EcommerceAPI.Infrastructure.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.pdb
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\ref\EcommerceAPI.Infrastructure.dll
-C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Infrastructure\EcommerceAPI.Infrastructure\obj\Debug\net6.0\EcommerceAPI.Infrastructure.sourcelink.json

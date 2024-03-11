@@ -9,4 +9,3 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Domain\obj\Debug\net6.0\refint\EcommerceAPI.Domain.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Domain\obj\Debug\net6.0\EcommerceAPI.Domain.pdb
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Domain\obj\Debug\net6.0\ref\EcommerceAPI.Domain.dll
-C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Domain\obj\Debug\net6.0\EcommerceAPI.Domain.sourcelink.json

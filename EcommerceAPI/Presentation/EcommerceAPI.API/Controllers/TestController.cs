@@ -14,17 +14,33 @@ namespace EcommerceAPI.API.Controllers
 	{
 		readonly private IProductReadRepository _productReadRepository;
 		readonly private IProductWriteRepository _productWriteRepository;
+
 		readonly private IWebHostEnvironment _webHostEnvironment;
 
 		readonly IFileService _fileService;
 
+		readonly IFileReadRepository _fileReadRepository;
+		readonly IFileWriteRepository _fileWriteRepository;
 
-		public TestController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, IWebHostEnvironment webHostEnvironment, IFileService fileService)
+		readonly IProductImageFileReadRepository _productImageFileReadRepository;
+		readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
+
+		readonly IInvoiceFileReadRepository _invoiceFileReadRepository;
+		readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
+
+
+		public TestController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, IWebHostEnvironment webHostEnvironment, IFileService fileService, IFileReadRepository fileReadRepository, IFileWriteRepository fileWriteRepository, IProductImageFileReadRepository productImageFileReadRepository, IProductImageFileWriteRepository productImageFileWriteRepository, IInvoiceFileReadRepository invoiceFileReadRepository, IInvoiceFileWriteRepository invoiceFileWriteRepository)
 		{
 			_productReadRepository = productReadRepository;
 			_productWriteRepository = productWriteRepository;
 			_webHostEnvironment = webHostEnvironment;
 			_fileService = fileService;
+			_fileReadRepository = fileReadRepository;
+			_fileWriteRepository = fileWriteRepository;
+			_productImageFileReadRepository = productImageFileReadRepository;
+			_productImageFileWriteRepository = productImageFileWriteRepository;
+			_invoiceFileReadRepository = invoiceFileReadRepository;
+			_invoiceFileWriteRepository = invoiceFileWriteRepository;
 		}
 
 		#region Test Kodları
@@ -151,7 +167,23 @@ namespace EcommerceAPI.API.Controllers
 		[HttpPost("[action]")]
 		public async Task<IActionResult> Upload()
 		{
-			await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+			var datas =	await _fileService.UploadAsync("resource/Files", Request.Form.Files);
+			//_productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
+			//{
+			//	FileName = d.fileName,
+			//	Path = d.path,
+			//}).ToList());
+
+			//await _productImageFileWriteRepository.SaveAsync();
+
+			_fileWriteRepository.AddRangeAsync(datas.Select(d => new EcommerceAPI.Domain.Entities.File()
+			{
+				FileName = d.fileName,
+				Path = d.path
+			}).ToList());
+
+			await _fileWriteRepository.SaveAsync();
+
 			return Ok();
 		}
 	}

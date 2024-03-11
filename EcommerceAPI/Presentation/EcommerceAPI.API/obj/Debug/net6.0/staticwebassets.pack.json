@@ -1,24 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\1032087375.PNG",
-      "PackagePath": "staticwebassets\\resource\\product-images\\1032087375.PNG"
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Invoice\\QueBeec-Digital-Logo.png",
+      "PackagePath": "staticwebassets\\resource\\Invoice\\QueBeec-Digital-Logo.png"
     },
     {
-      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\1326279809.png",
-      "PackagePath": "staticwebassets\\resource\\product-images\\1326279809.png"
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\1701859927163.jpeg",
+      "PackagePath": "staticwebassets\\resource\\product-images\\1701859927163.jpeg"
     },
     {
-      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\1360830261.png",
-      "PackagePath": "staticwebassets\\resource\\product-images\\1360830261.png"
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\Ekran-goruntusu-2024-02-12-091051.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\Ekran-goruntusu-2024-02-12-091051.png"
     },
     {
-      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\2138966130.png",
-      "PackagePath": "staticwebassets\\resource\\product-images\\2138966130.png"
-    },
-    {
-      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\asdasd.PNG",
-      "PackagePath": "staticwebassets\\resource\\product-images\\asdasd.PNG"
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\product-images\\QueBeec-Digital-Logo.png",
+      "PackagePath": "staticwebassets\\resource\\product-images\\QueBeec-Digital-Logo.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EcommerceAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
