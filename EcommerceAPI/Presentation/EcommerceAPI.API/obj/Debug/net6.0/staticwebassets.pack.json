@@ -1,6 +1,22 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Files\\Ekran-goruntusu-2024-02-12-091051.png",
+      "PackagePath": "staticwebassets\\resource\\Files\\Ekran-goruntusu-2024-02-12-091051.png"
+    },
+    {
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Files\\OTOVOI---IS-PLANI.pdf",
+      "PackagePath": "staticwebassets\\resource\\Files\\OTOVOI---IS-PLANI.pdf"
+    },
+    {
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Files\\QueBeec-Digital-Logo.png",
+      "PackagePath": "staticwebassets\\resource\\Files\\QueBeec-Digital-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Files\\randevu.pdf",
+      "PackagePath": "staticwebassets\\resource\\Files\\randevu.pdf"
+    },
+    {
       "Id": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\wwwroot\\resource\\Invoice\\QueBeec-Digital-Logo.png",
       "PackagePath": "staticwebassets\\resource\\Invoice\\QueBeec-Digital-Logo.png"
     },
