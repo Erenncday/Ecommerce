@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\services\\storage\\local\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\services\\storage\\local\\localstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\services\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\services\\storage\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\services\\storage\\azure\\azurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\services\\storage\\azure\\azurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E06FEA-9EDC-40A6-B979-E470FDBD08DE}|Infrastructure\\EcommerceAPI.Infrastructure\\EcommerceAPI.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerceapi.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\abstractions\\storage\\azure\\iazurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\abstractions\\storage\\azure\\iazurestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Presentation\\EcommerceAPI.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\appsettings.json",
+              "RelativeToolTip": "Presentation\\EcommerceAPI.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAADMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T16:39:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAzureStorage.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
+              "RelativeDocumentMoniker": "Core\\EcommerceAPI.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
+              "RelativeToolTip": "Core\\EcommerceAPI.Application\\Abstractions\\Storage\\Azure\\IAzureStorage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:44:47.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AzureStorage.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
+              "RelativeToolTip": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Azure\\AzureStorage.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:45:58.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EcommerceAPI.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\EcommerceAPI.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBUAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:11:04.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\EcommerceAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\EcommerceAPI.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:12:04.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Presentation\\EcommerceAPI.API\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Presentation\\EcommerceAPI.API\\Controllers\\TestController.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAcwKwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T17:13:08.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Storage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Storage.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Storage.cs",
+              "RelativeToolTip": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Storage.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAADgv0YAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:12:13.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\FileService.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\FileService.cs",
+              "RelativeToolTip": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\FileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:15:56.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LocalStorage.cs",
+              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Local\\LocalStorage.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Local\\LocalStorage.cs",
+              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Local\\LocalStorage.cs",
+              "RelativeToolTip": "Infrastructure\\EcommerceAPI.Infrastructure\\Services\\Storage\\Local\\LocalStorage.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwD8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T23:17:46.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,8 +8,9 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.AssemblyInfoInputs.cache
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.AssemblyInfo.cs
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.csproj.CoreCompileInputs.cache
-C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.csproj.CopyComplete
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\refint\EcommerceAPI.Application.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.pdb
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\ref\EcommerceAPI.Application.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\EcommerceAPI.Application.sourcelink.json
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Core\EcommerceAPI.Application\obj\Debug\net6.0\Ecommerc.141FF139.Up2Date

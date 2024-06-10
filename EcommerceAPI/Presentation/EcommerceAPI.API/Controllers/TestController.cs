@@ -169,7 +169,8 @@ namespace EcommerceAPI.API.Controllers
 		public async Task<IActionResult> Upload()
 		{
 
-			var datas = await _storageService.UploadAsync("resource/files", Request.Form.Files);
+			//var datas = await _storageService.UploadAsync("resource/files", Request.Form.Files);
+			var datas = await _storageService.UploadAsync("files", Request.Form.Files);
 
 			//var datas =	await _fileService.UploadAsync("resource/Files", Request.Form.Files);
 			_productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
