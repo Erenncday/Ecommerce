@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EcommerceAPI.Persistence.Migrations
 {
     [DbContext(typeof(EcommerceAPIDbContext))]
-    [Migration("20240603215708_mig_1")]
-    partial class mig_1
+    [Migration("20250121024009_mig_3")]
+    partial class mig_3
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -149,6 +149,21 @@ namespace EcommerceAPI.Persistence.Migrations
                     b.ToTable("OrderProduct");
                 });
 
+            modelBuilder.Entity("ProductProductImageFile", b =>
+                {
+                    b.Property<Guid>("ProductsId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("productImageFilesId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("ProductsId", "productImageFilesId");
+
+                    b.HasIndex("productImageFilesId");
+
+                    b.ToTable("ProductProductImageFile");
+                });
+
             modelBuilder.Entity("EcommerceAPI.Domain.Entities.InvoiceFile", b =>
                 {
                     b.HasBaseType("EcommerceAPI.Domain.Entities.File");
@@ -188,6 +203,21 @@ namespace EcommerceAPI.Persistence.Migrations
                     b.HasOne("EcommerceAPI.Domain.Entities.Product", null)
                         .WithMany()
                         .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ProductProductImageFile", b =>
+                {
+                    b.HasOne("EcommerceAPI.Domain.Entities.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EcommerceAPI.Domain.Entities.ProductImageFile", null)
+                        .WithMany()
+                        .HasForeignKey("productImageFilesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

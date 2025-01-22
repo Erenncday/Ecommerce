@@ -14,6 +14,7 @@ namespace EcommerceAPI.Domain.Entities
         public float Price { get; set; }
 
         public ICollection<Order> Orders { get; set; }  
+        public ICollection<ProductImageFile> productImageFiles { get; set; }
 
     }
 }

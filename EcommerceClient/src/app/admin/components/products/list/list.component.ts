@@ -9,6 +9,8 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
 import { FileUploadOptions } from 'src/app/services/common/file-upload/file-upload.component';
+import { DialogService } from 'src/app/services/common/dialog/dialog.service';
+import { SelectProductImageDialogComponent } from 'src/app/dialogs/select-product-image-dialog/select-product-image-dialog.component';
 
 declare var $ : any;
 
@@ -20,12 +22,12 @@ declare var $ : any;
 
 export class ListComponent extends BaseComponent implements OnInit{
 
-  constructor(spinner : NgxSpinnerService, private productService : ProductService, private alertifyService : AlertifyService) 
+  constructor(spinner : NgxSpinnerService, private productService : ProductService, private alertifyService : AlertifyService, private dialogService : DialogService) 
   { 
     super(spinner)
   }
 
-  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate', 'edit', 'delete'];
+  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'photos', 'updatedDate', 'edit', 'delete'];
 
   dataSource : MatTableDataSource<List_Product> = null;
 
@@ -71,5 +73,19 @@ export class ListComponent extends BaseComponent implements OnInit{
   async ngOnInit() 
   {
    await this.getProducts();
+  }
+
+  addProductImages(id : string)
+  {
+    this.dialogService.openDialog(
+      {
+        componentType : SelectProductImageDialogComponent,
+        data : id,
+        options : 
+        {
+          width : "1400px"
+        }
+      }
+    )
   }
 }
