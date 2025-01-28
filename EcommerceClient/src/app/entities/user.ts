@@ -1,4 +1,4 @@
-export class user
+export class User
 {
     namesurname : string;
     username : string;

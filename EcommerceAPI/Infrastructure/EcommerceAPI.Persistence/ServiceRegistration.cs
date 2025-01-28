@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EcommerceAPI.Application.Repositories;
 using EcommerceAPI.Persistence.Repositories;
+using EcommerceAPI.Domain.Entities.Identity;
 
 namespace EcommerceAPI.Persistence
 {
@@ -16,6 +17,16 @@ namespace EcommerceAPI.Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddDbContext<EcommerceAPIDbContext>(options => options.UseNpgsql(Configurations.ConnectionString));
+
+            services.AddIdentity<AppUser, AppRole>( options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+
+            }).AddEntityFrameworkStores<EcommerceAPIDbContext>();
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();

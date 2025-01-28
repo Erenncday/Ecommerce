@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, ValidationErrors, Validators } from '@angular/forms';
-import { user } from 'src/app/entities/user';
+import { Create_User } from 'src/app/contracts/users/create_user';
+import { User } from 'src/app/entities/user';
+import { UserService } from 'src/app/services/common/models/user.service';
+import { CustomToastrService, ToastrMessageType, ToastrPosition } from 'src/app/services/ui/custom-toastr.service';
 
 @Component({
   selector: 'app-register',
@@ -9,7 +12,7 @@ import { user } from 'src/app/entities/user';
 })
 export class RegisterComponent implements OnInit {
 
-  constructor(private formbuilder : FormBuilder) { }
+  constructor(private formbuilder : FormBuilder, private userService : UserService, private toastService : CustomToastrService) { }
 
   frm: FormGroup;
   ngOnInit(): void {
@@ -37,15 +40,25 @@ export class RegisterComponent implements OnInit {
   submitted : Boolean = false;
 
 
-  onSubmit(data : user){
+  async onSubmit(user : User){
     this.submitted = true;
 
-    var f = this.frm;
-    var c = this.component;
-    var d = this.frm.hasError("passwordnotmatch");
 
     if(this.frm.invalid)
       return;
+
+    const result: Create_User = await this.userService.create(user);
+
+    if(result.succeeded)
+      this.toastService.message(result.message, "Kayıt Başarılı", {
+      messageType : ToastrMessageType.Success,
+      position : ToastrPosition.TopRight
+      })
+    else
+      this.toastService.message(result.message, "Kayıt Oluşturulurken beklenmeyen bir hatayla karşılaşıldı!", {
+      messageType : ToastrMessageType.Error,
+      position : ToastrPosition.TopRight
+      })
   }
 
 }
