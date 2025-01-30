@@ -1,89 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E048B56-E6D0-4D18-8842-165F5AE6E7B4}|Presentation\\EcommerceAPI.API\\EcommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|c:\\users\\oyunu\\onedrive\\belgeler\\github\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CD1D8C2-8D40-4903-8167-826D118880DB}|Core\\EcommerceAPI.Application\\EcommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\appuser\\loginuser\\loginusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Presentation\\EcommerceAPI.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Presentation\\EcommerceAPI.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Presentation\\EcommerceAPI.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAmwCEAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:04:29.527Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginUserCommandResponse.cs",
-              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "RelativeDocumentMoniker": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "RelativeToolTip": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:05:17.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginUserCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandRequest.cs",
-              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandRequest.cs",
-              "RelativeToolTip": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:05:10.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "RelativeToolTip": "Core\\EcommerceAPI.Application\\Features\\Commands\\AppUser\\LoginUser\\LoginUserCommandHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBsAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T21:05:04.338Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

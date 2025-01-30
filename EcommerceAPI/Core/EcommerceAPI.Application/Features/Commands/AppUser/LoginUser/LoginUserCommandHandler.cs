@@ -1,4 +1,6 @@
-﻿using EcommerceAPI.Application.Exceptions;
+﻿using EcommerceAPI.Application.Abstractions.Token;
+using EcommerceAPI.Application.DTOs;
+using EcommerceAPI.Application.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using AU = EcommerceAPI.Domain.Entities.Identity.AppUser;
@@ -9,11 +11,13 @@ namespace EcommerceAPI.Application.Features.Commands.AppUser.LoginUser
 	{
 		readonly UserManager<AU> _userManager;
 		readonly SignInManager<AU> _signInManager;
+		readonly ITokenHandler _tokenHandler;
 
-		public LoginUserCommandHandler(UserManager<AU> userManager, SignInManager<AU> signInManager)
+		public LoginUserCommandHandler(UserManager<AU> userManager, SignInManager<AU> signInManager, ITokenHandler tokenHandler)
 		{
 			_userManager = userManager;
 			_signInManager = signInManager;
+			_tokenHandler = tokenHandler;
 		}
 
 		public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
@@ -28,10 +32,21 @@ namespace EcommerceAPI.Application.Features.Commands.AppUser.LoginUser
 			SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (result.Succeeded)
             {
-                
-            }
+				Token token = _tokenHandler.CreateAccesToken(5);
 
-			return new();
+				return new LoginUserSuccessCommandResponse()
+				{
+					Token = token
+				};
+			}
+
+			//return new LoginUserErrorCommandResponse()
+			//{
+			//	Message = "Kullanıcı Adı veya Şifre hatalı!"
+			//};
+
+			throw new AuthenticationErrorException();
+		
         }
 	}
 }

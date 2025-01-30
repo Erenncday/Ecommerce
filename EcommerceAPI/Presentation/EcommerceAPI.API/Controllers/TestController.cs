@@ -12,6 +12,7 @@ using EcommerceAPI.Application.RequestParameters;
 using EcommerceAPI.Application.ViewModels.Products;
 using EcommerceAPI.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
@@ -20,6 +21,7 @@ namespace EcommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
 	[ApiController]
+	[Authorize(AuthenticationSchemes = "Admin")]
 	public class TestController : ControllerBase
 	{
 		readonly private IProductReadRepository _productReadRepository;
