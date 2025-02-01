@@ -3,6 +3,7 @@ import { ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot } from
 import { JwtHelperService } from '@auth0/angular-jwt';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { SpinnerType } from 'src/app/base/base.component';
+import { _isAuthenticated, AuthService } from 'src/app/services/common/auth.service';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from 'src/app/services/ui/custom-toastr.service';
 
 @Injectable({
@@ -19,7 +20,7 @@ export class AuthGuard implements CanActivate {
   {
     this.spinner.show(SpinnerType.BallPulseSync);
 
-    const token : string = localStorage.getItem("accessToken");
+    // const token : string = localStorage.getItem("accessToken");
 
     // const decodeToken = this.jwtHelper.decodeToken(token);
 
@@ -27,18 +28,18 @@ export class AuthGuard implements CanActivate {
 
     // const expired : boolean = this.jwtHelper.isTokenExpired(token);
 
-    let expired: boolean;
+    // let expired: boolean;
 
-    try
-    {
-      expired = this.jwtHelper.isTokenExpired(token);
-    }
-    catch
-    {
-      expired = true;
-    }
+    // try
+    // {
+    //   expired = this.jwtHelper.isTokenExpired(token);
+    // }
+    // catch
+    // {
+    //   expired = true;
+    // }
 
-    if(!token || expired)
+    if(!_isAuthenticated)
     {
       this.router.navigate(["login"], {queryParams: {returnUrl: state.url}})
 

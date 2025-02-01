@@ -9,9 +9,10 @@
           <a class="nav-link active" aria-current="page" routerLink="">Anasayfa</a>
           <a class="nav-link" routerLink="products">Ürünler</a>
           <a class="nav-link" routerLink="basket">Sepet</a>
-          <a class="nav-link" routerLink="register">kayıt Ol</a>
-          <a class="nav-link" routerLink="login">Giriş Yap</a>
-          <a class="nav-link" routerLink="admin">Admin Panel</a>
+          <a class="nav-link" routerLink="register" *ngIf="!authService.isAuthenticated" >kayıt Ol</a>
+          <a class="nav-link" routerLink="login" *ngIf="!authService.isAuthenticated">Giriş Yap</a>
+          <a class="nav-link" style="color:red; cursor: pointer;" (click)="signOut()" *ngIf="authService.isAuthenticated">Çıkış Yap</a>
+          <a class="nav-link" routerLink="admin" *ngIf="authService.isAuthenticated">Admin Panel</a>
         </div>
       </div>
     </div>
