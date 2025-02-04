@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
 import { AuthService } from 'src/app/services/common/auth.service';
-import { UserService } from 'src/app/services/common/models/user.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { UserAuthService } from 'src/app/services/common/models/user-auth.service';
 
 
 @Component({
@@ -14,7 +14,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class LoginComponent extends BaseComponent implements OnInit {
 
 
-  constructor(private userService : UserService, spinner : NgxSpinnerService, private authService : AuthService, private activatedRoute : ActivatedRoute, private router: Router ) {
+  constructor(private userAuthService : UserAuthService, spinner : NgxSpinnerService, private authService : AuthService, private activatedRoute : ActivatedRoute, private router: Router ) {
     super(spinner);
     
   }
@@ -26,7 +26,7 @@ export class LoginComponent extends BaseComponent implements OnInit {
 async login(UsernameOrEmail:string, Password:string)
 {
   this.showSpinner(SpinnerType.Timer);
-  await this.userService.login(UsernameOrEmail, Password, () => {
+  await this.userAuthService.login(UsernameOrEmail, Password, () => {
 
     this.authService.identityCheck();
 

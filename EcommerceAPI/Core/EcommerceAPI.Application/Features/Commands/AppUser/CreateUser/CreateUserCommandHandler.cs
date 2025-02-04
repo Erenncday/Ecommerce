@@ -2,39 +2,39 @@
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using EcommerceAPI.Application.Exceptions;
+using EcommerceAPI.Application.Abstractions.Services;
+using EcommerceAPI.Application.DTOs.User;
 
 
 namespace EcommerceAPI.Application.Features.Commands.AppUser.CreateUser
 {
 	public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
 	{
-		readonly UserManager<AU.AppUser> _userManager;
+		readonly IUserService _userService;
 
-		public CreateUserCommandHandler(UserManager<AU.AppUser> userManager)
+		public CreateUserCommandHandler(IUserService userService)
 		{
-			_userManager = userManager;
+			_userService = userService;
 		}
 
 		public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
 		{
-			IdentityResult result =  await _userManager.CreateAsync(new()
+
+			 CreateUserResponse response = await _userService.CreateAsync(new()
 			{
-				Id = Guid.NewGuid().ToString(),
-				NameSurname = request.NameSurname,
 				UserName = request.UserName,
 				Email = request.Email,
+				NameSurname = request.NameSurname,
+				Password = request.Password,
+				Password2 = request.Password2
+			});
 
-			}, request.Password);
-
-			CreateUserCommandResponse response = new() { Succeeded = result.Succeeded };
-
-			if (result.Succeeded)
-				response.Message = "Kullanıcı kaydı başarıyla oluşturuldu!";
-			else
-				foreach (var error in result.Errors)
-					response.Message += $"{error.Code} - {error.Description}\n";
-
-			return response;
+			return new()
+			{
+				Message = response.Message,
+				Succeeded = response.Succeeded,
+			};
+			
 
 			//throw new UserCreateFailedException();
 
