@@ -153,6 +153,7 @@ namespace EcommerceAPI.API.Controllers
 			//	products
 			//});
 
+
 			GetAllProductQueryResponse response = await _mediator.Send(getAllProductQueryRequest);
 			return Ok(response);
 		}
