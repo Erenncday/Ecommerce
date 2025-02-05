@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Cryptography;
 using System.Text;
 
 
@@ -27,7 +28,7 @@ namespace EcommerceAPI.Infrastructure.Services.Token
 			SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
 
 			
-			token.Expiration = DateTime.UtcNow.AddMinutes(second);
+			token.Expiration = DateTime.UtcNow.AddSeconds(second);
 
 			JwtSecurityToken securityToken = new(
 				audience: _configuration["Token:Audience"],
@@ -40,7 +41,20 @@ namespace EcommerceAPI.Infrastructure.Services.Token
 			
 			JwtSecurityTokenHandler tokenHandler = new();
 			token.AccessToken = tokenHandler.WriteToken(securityToken);
+
+			//string refreshToken = CreateRefreshToken();
+			token.RefreshToken = CreateRefreshToken();
+
+
 			return token;
 		}
-    }
+
+		public string CreateRefreshToken()
+		{
+			byte[] number = new byte[32];
+			using RandomNumberGenerator random = RandomNumberGenerator.Create();
+			random.GetBytes(number);
+			return Convert.ToBase64String(number);
+		}
+	}
 }
