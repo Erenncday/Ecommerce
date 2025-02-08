@@ -11,6 +11,7 @@
           "EcommerceAPI.Application": "1.0.0",
           "EcommerceAPI.Infrastructure": "1.0.0",
           "EcommerceAPI.Persistence": "1.0.0",
+          "EcommerceAPI.SignalR": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Design": "6.0.25",
@@ -1069,6 +1070,14 @@
         "runtime": {
           "EcommerceAPI.Persistence.dll": {}
         }
+      },
+      "EcommerceAPI.SignalR/1.0.0": {
+        "dependencies": {
+          "EcommerceAPI.Application": "1.0.0"
+        },
+        "runtime": {
+          "EcommerceAPI.SignalR.dll": {}
+        }
       }
     }
   },
@@ -1934,6 +1943,11 @@
       "sha512": ""
     },
     "EcommerceAPI.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EcommerceAPI.SignalR/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

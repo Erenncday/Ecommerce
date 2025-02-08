@@ -90,3 +90,5 @@ C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\Ecom
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\EcommerceAPI.SignalR.dll
+C:\Users\oyunu\OneDrive\Belgeler\GitHub\Ecommerce\EcommerceAPI\Presentation\EcommerceAPI.API\bin\Debug\net6.0\EcommerceAPI.SignalR.pdb

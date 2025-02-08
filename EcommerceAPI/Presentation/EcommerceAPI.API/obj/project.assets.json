@@ -2056,6 +2056,22 @@
         "runtime": {
           "bin/placeholder/EcommerceAPI.Persistence.dll": {}
         }
+      },
+      "EcommerceAPI.SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EcommerceAPI.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EcommerceAPI.SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EcommerceAPI.SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5575,6 +5591,11 @@
       "type": "project",
       "path": "../../Infrastructure/EcommerceAPI.Persistence/EcommerceAPI.Persistence.csproj",
       "msbuildProject": "../../Infrastructure/EcommerceAPI.Persistence/EcommerceAPI.Persistence.csproj"
+    },
+    "EcommerceAPI.SignalR/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/EcommerceAPI.SignalRR/EcommerceAPI.SignalR.csproj",
+      "msbuildProject": "../../Infrastructure/EcommerceAPI.SignalRR/EcommerceAPI.SignalR.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5582,6 +5603,7 @@
       "EcommerceAPI.Application >= 1.0.0",
       "EcommerceAPI.Infrastructure >= 1.0.0",
       "EcommerceAPI.Persistence >= 1.0.0",
+      "EcommerceAPI.SignalR >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.25",
@@ -5628,6 +5650,9 @@
             },
             "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj": {
               "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.Persistence\\EcommerceAPI.Persistence.csproj"
+            },
+            "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.SignalRR\\EcommerceAPI.SignalR.csproj": {
+              "projectPath": "C:\\Users\\oyunu\\OneDrive\\Belgeler\\GitHub\\Ecommerce\\EcommerceAPI\\Infrastructure\\EcommerceAPI.SignalRR\\EcommerceAPI.SignalR.csproj"
             }
           }
         }
