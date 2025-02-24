@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="card" style="width: 18rem; float: left; margin: 5px;" *ngFor="let product of products;" >
+        <img src="../../../../../assets/Icons/Eye.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}}</h5>
+          <p class="card-text">Fiyat: {{product.price | currency:'₺'}} <br> Stok: {{product.stock}} adet</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    
+</div>
+
+
+<br>
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-6">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+
+          <li class="page-item">
+            <a class="page-link" [routerLink]="['/products', currentPageNo - 1 <= 0 ? 1 : currentPageNo - 1]"> <!--sayfa numarası sıfıra eşit veya sıfır ise sayfa sayısını 1'den' başlat, değilse sayfa sayısından 1 çıkart-->
+                Önceki
+            </a>
+          </li>
+
+          <li class="page-item" *ngFor="let pageNo of pageList" routerLinkActive="active">
+            <a class="page-link" [routerLink]="['/products', pageNo]">{{pageNo}}</a>
+          </li>
+
+          <li class="page-item">
+            <a class="page-link" [routerLink]="['/products', currentPageNo + 1 >= totalPageCount ? totalPageCount : currentPageNo + 1]"> <!-- sayfa numarasına 1 eklediğimizde toplam sayfa sayısından büyük veya eşit ise bulunulan sayfada kal değilse 1 arttır-->
+                Sonraki
+            </a>
+          </li>
+        </ul>
+      </nav>
+</div>
+<div class="col-md-3"></div>
+    
+</div>

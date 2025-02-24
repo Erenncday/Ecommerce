@@ -21,7 +21,7 @@ namespace EcommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
 	[ApiController]
-	[Authorize(AuthenticationSchemes = "Admin")]
+	
 	public class TestController : ControllerBase
 	{
 		readonly private IProductReadRepository _productReadRepository;
@@ -166,6 +166,7 @@ namespace EcommerceAPI.API.Controllers
 		}
 
 		[HttpPost]
+		[Authorize(AuthenticationSchemes = "Admin")]
 		public async Task<IActionResult> Post(CreateProductCommandRequest createProductCommandRequest)
 		{
 			CreateProductCommandResponse response = await _mediator.Send(createProductCommandRequest);
@@ -174,6 +175,7 @@ namespace EcommerceAPI.API.Controllers
 		}
 
 		[HttpPut]
+		[Authorize(AuthenticationSchemes = "Admin")]
 		public async Task<IActionResult> Put([FromBody]UpdateProductCommandRequest updateProductCommandRequest)
 		{
 			UpdateProductCommandResponse response = await _mediator.Send(updateProductCommandRequest);
@@ -182,6 +184,7 @@ namespace EcommerceAPI.API.Controllers
 		}
 
 		[HttpDelete("{Id}")]
+		[Authorize(AuthenticationSchemes = "Admin")]
 		public async Task<IActionResult> Delete([FromRoute]RemoveProductCommandRequest removeProductCommandRequest)
 		{
 			RemoveProductCommandResponse reponse = await _mediator.Send(removeProductCommandRequest);
@@ -189,6 +192,7 @@ namespace EcommerceAPI.API.Controllers
 		}
 
 		[HttpPost("[action]")]
+		[Authorize(AuthenticationSchemes = "Admin")]
 		public async Task<IActionResult> Upload([FromQuery]UploadProductImageCommandRequest uploadProductImageCommandRequest)
 		{
 			#region Test
@@ -229,9 +233,9 @@ namespace EcommerceAPI.API.Controllers
 			return Ok(response);
 		}
 
-
 		[HttpDelete("[action]/{Id}")]
-        public async Task<IActionResult> DeleteProductImage([FromRoute]RemoveProductImageCommandRequest removeProductImageCommandRequest,[FromQuery]string imageId )
+		[Authorize(AuthenticationSchemes = "Admin")]
+		public async Task<IActionResult> DeleteProductImage([FromRoute]RemoveProductImageCommandRequest removeProductImageCommandRequest,[FromQuery]string imageId )
 		{
 			removeProductImageCommandRequest.ImageId = imageId;
 			RemoveProductImageCommandResponse response = await _mediator.Send(removeProductImageCommandRequest);

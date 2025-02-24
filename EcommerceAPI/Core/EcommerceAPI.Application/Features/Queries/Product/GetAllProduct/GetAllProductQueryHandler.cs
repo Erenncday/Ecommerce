@@ -27,7 +27,7 @@ namespace EcommerceAPI.Application.Features.Queries.Product.GetAllProduct
         {
             _logger.LogInformation("Tüm ürünler listelendi");
 
-            var totalCount = _productReadRepository.GetAll(false).Count();
+            var TotalProductCount = _productReadRepository.GetAll(false).Count();
 
             var products = _productReadRepository.GetAll(false).Skip(request.Page * request.Size).Take(request.Size).Select(p => new
             {
@@ -42,8 +42,8 @@ namespace EcommerceAPI.Application.Features.Queries.Product.GetAllProduct
             var response = new GetAllProductQueryResponse
             {
                 Products = products,
-                TotalCount = totalCount
-            };
+				TotalProductCount = TotalProductCount
+			};
 
             return Task.FromResult(response);
         }
